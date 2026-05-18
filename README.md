@@ -2,13 +2,19 @@
 
 A local physical-world analytics prototype for attributing synthetic thermal anomalies to decision-grade event categories with evidence trails.
 
-## Features
+`constellr-thermal-event-attribution` favors explicit fixtures, deterministic checks, and reviewable artifacts over hidden services or live data.
+
+## Why this exists
+
+Thermal Event Attribution Workbench for Agriculture and Infrastructure.
+
+## System behavior
 
 - Synthetic thermal tiles, weather context, anomaly bands, and intervention signals.
 - Attribution logic for crop stress, irrigation failure, equipment risk, and heat events.
 - Structured reports, CSV outputs, and an offline dashboard for review.
 
-## Run Locally
+## Runbook
 
 ```bash
 uv sync
@@ -23,7 +29,7 @@ uv run pytest -q
 uv run ruff check .
 ```
 
-## Outputs
+## Inspection points
 
 - `outputs/dashboard.html`
 - `outputs/decision_report.md`
@@ -32,6 +38,14 @@ uv run ruff check .
 - `outputs/benchmark.md`
 - `outputs/demo_pack.md`
 
-## Data Policy
+## Verification
 
-This project runs fully locally on deterministic synthetic fixtures. It does not require external APIs, credentials, private datasets, network access, or production systems.
+```bash
+uv run ruff check .
+uv run pytest -q
+uv run app verify
+```
+
+## Privacy model
+
+The `constellr-thermal-event-attribution` public surface is source, tests, lockfile, and docs. It does not need credentials, browser state, customer records, or hosted services.
