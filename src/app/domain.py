@@ -19,7 +19,7 @@ PRIMARY_METRIC = 'confidence'
 PRIMARY_LABEL = 'Confidence'
 CHECKS = ['weather-front false positive suppressed', 'irrigation blockage attributed correctly', 'equipment overheating not mislabeled crop stress', 'recommendations link tile weather evidence']
 CASES = [['field-a-17', 'irrigate', 'crop_stress', True, 93, 'tile:LST-017 weather:W-17', 'hot strip persists after weather normalization'], ['city-b-04', 'defer', 'false_alarm', True, 87, 'tile:LST-204 weather:W-204', 'regional heat spike matches air-temperature front'], ['substation-c-09', 'inspect', 'asset_risk', True, 91, 'tile:LST-309 asset:A-09', 'localized thermal spike independent of crop patterns'], ['field-d-02', 'irrigate', 'water_stress', False, 64, 'tile:LST-402 weather:W-402', 'lower confidence due missing humidity sidecar'], ['corridor-e-12', 'escalate', 'infrastructure_risk', True, 82, 'tile:LST-512 city:C-12', 'nighttime heat retention exceeds baseline']]
-SLUG = 'constellr-thermal-event-attribution'
+SLUG = 'thermal-groundtruth'
 
 
 class DomainCase(BaseModel):
