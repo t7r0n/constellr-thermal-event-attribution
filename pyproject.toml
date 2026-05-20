@@ -1,5 +1,5 @@
 [project]
-name = "thermal-groundtruth"
+name = "thermal-event-attribution-workbench"
 version = "0.1.0"
 description = "Thermal Event Attribution Workbench for Agriculture and Infrastructure"
 requires-python = ">=3.12"

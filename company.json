@@ -1,5 +1,5 @@
 {
-  "slug": "thermal-groundtruth",
+  "slug": "thermal-event-attribution-workbench",
   "company": "Thermal Event Attribution Workbench",
   "title": "Thermal Event Attribution Workbench",
   "thesis": "A local physical-world analytics prototype for attributing synthetic thermal anomalies to decision-grade event categories with evidence trails.",

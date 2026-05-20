@@ -3,7 +3,7 @@
 ![Thermal Event Attribution Workbench working preview](outputs/project_working.svg)
 A local physical-world analytics prototype for attributing synthetic thermal anomalies to decision-grade event categories with evidence trails.
 
-`thermal-groundtruth` favors explicit fixtures, deterministic checks, and reviewable artifacts over hidden services or live data.
+`thermal-event-attribution-workbench` favors explicit fixtures, deterministic checks, and reviewable artifacts over hidden services or live data.
 
 ## Why this exists
 
@@ -49,6 +49,6 @@ uv run app verify
 
 ## Privacy model
 
-The `thermal-groundtruth` public surface is source, tests, lockfile, and docs. It does not need credentials, browser state, customer records, or hosted services.
+The `thermal-event-attribution-workbench` public surface is source, tests, lockfile, and docs. It does not need credentials, browser state, customer records, or hosted services.
 
 ![Thermal Event Attribution Workbench evidence map](outputs/evidence_map.svg)
