@@ -1,5 +1,6 @@
 # Thermal Event Attribution Workbench
 
+![Thermal Event Attribution Workbench working preview](outputs/project_working.svg)
 A local physical-world analytics prototype for attributing synthetic thermal anomalies to decision-grade event categories with evidence trails.
 
 `constellr-thermal-event-attribution` favors explicit fixtures, deterministic checks, and reviewable artifacts over hidden services or live data.
@@ -49,3 +50,5 @@ uv run app verify
 ## Privacy model
 
 The `constellr-thermal-event-attribution` public surface is source, tests, lockfile, and docs. It does not need credentials, browser state, customer records, or hosted services.
+
+![Thermal Event Attribution Workbench evidence map](outputs/evidence_map.svg)
